@@ -1,0 +1,26 @@
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+
+# Alignment files
+*.bam
+*.bai
+*.sam
+
+# Variant files
+*.vcf
+*.vcf.gz
+*.csi
+
+# SLURM logs
+slurm-*.out
+slurm-*.err
+*.log
+
+# Temporary files
+*.tmp
+
+# Mac files
+.DS_Store
+
+
