@@ -1,0 +1,53 @@
+# NOTE:
+# This project uses Conda environments defined in:
+# Rotation3.yml
+# gwas_plots.yml
+#
+# These YAML files provide the exact reproducible environments.
+# This requirements.txt file serves as a readable summary of key tools.
+
+############################################################
+# Core Bioinformatics Tools
+############################################################
+
+bcftools==1.21
+bwa==0.7.19
+fastp==0.23.4
+fastqc==0.12.1
+picard==2.20.4
+samtools==1.21
+vcftools==0.1.17
+
+############################################################
+# GWAS and Variant Analysis Tools
+############################################################
+
+plink==1.9
+beagle==28Jun21.220
+
+############################################################
+# Statistical and Plotting Environment
+############################################################
+
+R==4.2.3
+
+R_packages:
+
+data.table
+ggplot2
+
+############################################################
+# Workflow Environment
+############################################################
+
+bash
+SLURM
+conda
+
+# Environments
+# Main analysis environment: Rotation3.yml
+# Plotting environment: gwas_plots.yml
+
+# Note:
+# This project is primarily reproducible through the provided Conda YAML files.
+# The requirements.txt file provides a human-readable summary of key tools.
