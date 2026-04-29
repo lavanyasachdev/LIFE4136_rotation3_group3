@@ -306,7 +306,7 @@ Script:
 ```
 Inputs:
 - filtered VCF file (CLF.filtered.Q30_DP10.vcf.gz)
-- Beagle JAR file (beagle.28Jun21.220.jar)
+- Beagle JAR file (beagle.28Jun21.220.jar) in /data
 
 Output:
 imputed VCF file (CLF.filtered.Q30_DP10.imputed)
@@ -389,7 +389,8 @@ GWAS results file
 ### Step 18 - summary of GWAS results
 
 Script
-```13_GWAS_summary.sh
+```
+13_GWAS_summary.sh
 ```
 
 Inputs:
